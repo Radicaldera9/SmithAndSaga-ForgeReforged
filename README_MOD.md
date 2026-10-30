@@ -2,43 +2,53 @@
 
 Upgrade tiers unlocked, gear rebalanced, smoother crafting and handling, and friendlier skills — in one mod.
 
-> **Beta.** The in-game texts added by this mod (skills screen, crafting sort button, the Warrior buff) are in Japanese for now.
+> **Testing stage.** This is the author's first mod, and the author is still partway through the Deep North. Balance, especially for late-game gear, may change, and bugs are possible. Please back up your world and characters before trying it. Feedback is very welcome.
+
+The mod's own controls use symbols and icons, so they work in any language.
 
 ## Features
 
 ### Forge — upgrades
-- Upgradeable items go up to **+100**.
-- Upgrades never need a crafting station above **level 1**.
-- Upgrade materials stay at **vanilla amounts**.
-- The "obtained with cheats" mark is removed, and strong upgraded items are no longer flagged as cheated.
+- The upgrade limit is raised to **+100**. No idols are needed.
+- Upgrades work at a **level 1** workbench or forge.
+- The "obtained with cheats" mark and the cheat check are removed.
+
+![Upgrading past the vanilla limit](https://raw.githubusercontent.com/Radicaldera9/SmithAndSaga-ForgeReforged/main/images/upgrade.jpg)
+
+*Antler Pickaxe going to quality 5 with a level 1 station. The sort icons sit at the top of the list.*
 
 ### Gear rebalance
-- About 160 weapons, armors, shields, arrows and capes have tuned stats, to close the gaps between gear of the same tier.
-- Attack animation speed is tuned per weapon type. One- and two-handed swords, axes and clubs are tuned separately. The speed bonus grows with the weapon skill and reaches its full value at skill 60. Below that it scales from the vanilla speed.
-- Attack motion values (damage, knockback and stagger multipliers) are tuned per weapon type.
+- About 160 pieces of gear have tuned stats.
+- Attack animation speed is tuned. The speed rises with your skill level and reaches its maximum at skill 60.
+- Motion values (damage, knockback and stagger multipliers) are tuned.
 
 ### New secondary attacks
 | Weapon | Secondary attack | Damage |
 |---|---|---|
-| Pickaxes | Atgeir sweep | Blunt only, no mining |
-| Sledges | Battleaxe secondary, with battleaxe effects and sounds | Blunt only |
-| Bows | Kick, with bare-hand kick effects and sounds; no arrows needed | Pierce only |
+| Pickaxes | Atgeir sweep. Cannot mine. | Uses the blunt damage |
+| Sledges | The same secondary attack as the battleaxe | Uses the blunt damage |
+| Bows | Kick. No arrows needed. | Uses the pierce damage |
+
+![Pickaxe sweep, sledge swing and bow kick](https://raw.githubusercontent.com/Radicaldera9/SmithAndSaga-ForgeReforged/main/images/secondary.jpg)
+
+*Left to right: pickaxe sweep, sledge swing, bow kick.*
 
 ### Warrior set bonus
-- Wear the helmet, chest and legs of the same series to get the **Warrior** buff.
-- The buff gives slight (25%) resistance to blunt and slash, and +20 Blocking skill.
-- Series: Bronze, Iron, Padded, Silver (Drake helmet + Wolf armor), Carapace, Flametal.
+- Wear a full set of Bronze, Iron, Padded, Silver, Carapace or Flametal armor (helmet, chest and legs of the same series) to activate it.
+- You get slight (25%) resistance to blunt and slash, and +20 Blocking skill.
 
 ### Crafting
-- Wooden weapons (axe, sword, knife, battleaxe, atgeir, mace, sledge, spear, two-handed sword) can be crafted and upgraded.
+- The wooden weapon series can be crafted and upgraded.
 - The Abyssal Harpoon and the Antler Pickaxe can be upgraded.
-- The Midsummer crown and the pointy hat (Halloween) can be crafted all year and upgraded.
-- The crafting list has a sort button at the top: default, by name, or by category. Craftable items always come first. In category order, lower station levels come first.
+- The Midsummer crown and the pointy hat (Halloween) can be crafted and upgraded all year round.
+- Sort icon buttons are added at the top of the crafting list: list lines = default, A/Z with an arrow = by name, gear icons = by category.
 
 ### Skills
-- Skill XP **+30%**.
-- **No skill loss** on death.
-- **XP respec** in the Skills screen. Lowering a skill by one level banks its XP. Spend banked XP to raise another skill.
+- Skill XP gain **+30%**.
+- Skills do **not drop** when you die.
+- Every skill in the Skills screen gets [-] and [+] buttons. The XP freed by lowering a skill one level with [-] is stored as `exp:` in the top-right corner, and [+] spends it on another skill.
+
+![Skills screen with - and + buttons](https://raw.githubusercontent.com/Radicaldera9/SmithAndSaga-ForgeReforged/main/images/skills.png)
 
 ## Install
 - **r2modman / Thunderstore Mod Manager:** install `Smith_and_Saga`. BepInExPack_Valheim is installed as a dependency.
@@ -62,32 +72,26 @@ Upgrade tiers unlocked, gear rebalanced, smoother crafting and handling, and fri
 
 強化段階の解放、装備バランスの見直し、製作と操作の快適化、スキルまわりの改善をひとつにまとめた MOD です。
 
+> **テスト段階です。** 作者にとって初めての MOD 制作で、作者自身もディープノースを攻略している途中です。終盤の装備を中心にバランスは今後変わる可能性があり、不具合が残っているかもしれません。試す前にワールドとキャラクターのバックアップをおすすめします。感想や不具合の報告を歓迎します。
+
 ## 主な内容
-- **強化**
-  - 強化上限は +100 です。
-  - 強化に必要な作業台・鍛冶場のレベルは 1 です。
-  - 強化素材の数はバニラのままです。
-  - 「チートで出現」の表示を消します。
-- **装備の調整**
-  - 約 160 種の装備の性能を調整しています。
-  - 攻撃モーションの速度を武器種ごとに調整しています。剣・斧・棍棒は片手と両手で別々です。速度はスキルに応じて上がり、スキル 60 で最大になります。
-  - モーション値（ダメージ・ノックバック・よろめきの倍率）を調整しています。
-- **副次攻撃**
-  - つるはし：アトゲイルの薙ぎ払い。打撃ダメージのみで、採掘はできません。
-  - 大ハンマー：バトルアックスの副次攻撃。打撃ダメージのみです。
-  - 弓：キック。刺突ダメージのみで、矢は不要です。
-- **戦士のセット効果**
-  - 青銅・鉄・詰め物・銀（ドレイクの兜＋狼の防具）・甲皮・炎金の兜・胸・脚を同じシリーズでそろえると発動します。
-  - 打撃・斬撃にやや耐性（25%）がつき、ブロックスキルが +20 されます。
-- **製作**
-  - 木の武器シリーズを作成・強化できます。
-  - 奈落の銛と枝角のつるはしを強化できます。
-  - 夏至祭の冠ととんがり帽子（ハロウィン）を、通年で作成・強化できます。
-  - 製作リストに並び替えボタンがあります（標準 / 名前順 / カテゴリ順）。
-- **スキル**
-  - 経験値が +30% になります。
-  - 死亡してもスキルが下がりません。
-  - スキル画面で、経験値単位の振り直しができます。
+- 強化上限を +100 に引き上げ、偶像は不要。
+- 作業台・鍛冶場のレベルは 1 で強化可能。
+- 「チートで出現」の表示と判定を消去。
+- 約 160 種の装備の性能を調整。
+- 攻撃モーション速度調整。速度はスキルレベルに応じて上がり、スキル 60 で最大速度。
+- モーション値（ダメージ・ノックバック・よろめきの倍率）を調整。
+- つるはし：アトゲイルの薙ぎ払い。打撃攻撃力を参照し、採掘は不可。
+- 大ハンマー：バトルアックスと同様の副次攻撃。打撃攻撃力を参照。
+- 弓：キック。刺突攻撃力を参照し、矢は不要。
+- 青銅・鉄・詰め物・銀・甲皮・炎金の鎧一式を兜・胸・脚で同じシリーズにそろえると発動。打撃・斬撃にやや耐性（25%）がつき、ブロックスキルが +20 。
+- 木の武器シリーズを作成・強化可能。
+- 奈落の銛と枝角のつるはしを強化可能。
+- 夏至祭の冠ととんがり帽子（ハロウィン）を、通年で作成・強化できます。
+- 製作リストの上に並び替えアイコンボタンを追加（横線 = 標準 / A・Z と矢印 = 名前順 / 装備アイコン = カテゴリ順）。
+- スキル経験値獲得量が +30% 。
+- 死亡してもスキルが低下しない。
+- スキル画面の各スキルに［-］［+］ボタンを追加。［-］で1レベル下げた分の経験値は右上の `exp:` に貯まり、［+］で別のスキルに使用可能。
 
 ## インストール
 PowerShell で次の 1 行を実行します。必要に応じて、r2modman、BepInExPack、この MOD の順に入れます。
